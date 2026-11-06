@@ -53,39 +53,42 @@ Los resultados pueden proporcionar información útil para comparar alternativas
 
 ## 3. Activos, datos y alcance · S25
 
-Elemento	Decisión
-Activos	NVDA, AMD y QCOM
-Período	1 de enero de 2021 al 31 de diciembre de 2025
-Frecuencia	Datos diarios
-Fuente	Yahoo Finance mediante yfinance
-Lenguaje	Python
-Aplicación	Streamlit
-Comparación	Rentabilidad y riesgo
-
 **Investiga:** ¿qué activos se ajustan a tu pregunta? ¿qué datos históricos existen? ¿qué frecuencia, período y fuente utilizarás?
 
 | Activo | Símbolo o ticker | Tipo | Razón para incluirlo |
 |---|---|---|---|
-| [Activo 1] | [Ticker] | [Cripto, commodity, acción, ETF...] | [Justificación] |
-| [Activo 2] | [Ticker] | [Tipo] | [Justificación] |
-
-- **Fuente de datos:** [Proveedor y enlace a su documentación]
-- **Período:** [Inicio – fin]
-- **Frecuencia:** [Diaria, semanal, mensual...]
+| [NVIDIA Corporation] | [NVDA] | [acción] | [Empresa especializada en GPU y soluciones de computación e inteligencia artificial. Se incluye para analizar el comportamiento de sus acciones ante el crecimiento de la demanda tecnológica.] |
+| [Advanced Micro Devices] | [AMD] | [acción] | [Empresa dedicada al desarrollo de procesadores y tarjetas gráficas. Se incluye para comparar su rentabilidad y riesgo frente a otras compañías del sector.] |
+| [QUALCOMM Incorporated] | [QCOM] | [acción] | [Empresa especializada en semiconductores y tecnologías de conectividad. Se incluye para evaluar el comportamiento de una compañía enfocada principalmente en chips para dispositivos móviles y comunicaciones.] |
+- **Fuente de datos:** Yahoo Finance mediante yfinance
+- **Período:** 1 de enero de 2021 al 31 de diciembre de 2025
+- **Frecuencia:** Datos diarios
 - **Variables disponibles:** [Fecha, precio de cierre, volumen...]
 - **Limitaciones de los datos:** [Fechas faltantes, zona horaria, ajustes, diferencias de mercado...]
-
+- **Lenguaje:** Python
+- **Aplicación:** Streamlit
+- **Comparación:** Rentabilidad y riesgo
 **Primera prueba:** [Enlace al notebook o archivo que descarga o consulta datos; indica qué funcionó y qué no]
 
 ## 4. Metodología de análisis · S25–S26
 
 **Investiga:** ¿qué indicadores permiten responder la pregunta principal? ¿cómo se calculan? ¿qué interpretación y limitaciones tienen?
 
+**¿Cuál de las tres empresas, NVIDIA, AMD o Qualcomm, presentó el mejor equilibrio entre rentabilidad y riesgo durante 2021-2025?**
+estos indicadores permiten comparar cuál empresa obtuvo mayor rentabilidad, cuál presentó más fluctuaciones y caídas, y cuál logró el mejor equilibrio entre rentabilidad y riesgo.
+
+Indicador	¿Cómo se calcula?	Interpretación y limitaciones
+Rentabilidad acumulada	\((Precio final / Precio inicial - 1) \times 100\)	Indica cuánto ganó o perdió la acción. No considera las fluctuaciones durante el período.
+Volatilidad anualizada	Desviación estándar de los rendimientos diarios × \(\sqrt{252}\)	Mide cuánto fluctúa el precio. Una volatilidad alta representa mayor variabilidad, pero no significa necesariamente pérdidas.
+Máximo drawdown	\((Precio actual / Máximo histórico alcanzado - 1) \times 100\)	Identifica la mayor caída desde un máximo. No muestra cuánto tardó la acción en recuperarse.
+Ratio de Sharpe	\((Rentabilidad - Tasa libre de riesgo) / Volatilidad\)	Mide la rentabilidad obtenida por cada unidad de riesgo. Depende de la tasa libre de riesgo utilizada y de los datos históricos.
+
 | Indicador / técnica | ¿Qué mide? | ¿Por qué lo necesitamos? | Implementación |
 |---|---|---|---|
-| [Indicador 1] | [Concepto y fórmula, si aplica] | [Relación con la pregunta] | [Archivo o celda] |
-| [Indicador 2] | [Concepto y fórmula, si aplica] | [Justificación] | [Pendiente / enlace] |
-
+| [Rentabilidad acumulada] | [Mide el porcentaje de crecimiento o disminución del precio de una acción durante el período analizado.] | [Identificar cuál de las tres empresas generó mayor rentabilidad.] | [Archivo o celda] |
+| [Volatilidad anualizada] | [Mide las fluctuaciones de los rendimientos diarios mediante la desviación estándar anualizada.] | [Comparar el nivel de variación y riesgo de las tres acciones.] | [Pendiente / enlace] |
+| [Máximo drawdown] | [Mide la mayor caída porcentual de una acción desde un máximo anterior hasta un mínimo posterior.] | [Identificar cuál empresa presentó las caídas más pronunciadas.] | [Archivo o celda] |
+| [Ratio de Sharpe] | [Mide la rentabilidad excedente obtenida en relación con la volatilidad asumida.] | [Determinar cuál acción presentó el mejor equilibrio entre rentabilidad y riesgo.] | [Archivo o celda] |
 No es necesario utilizar todos los indicadores estudiados en clase. Selecciona y justifica únicamente los pertinentes.
 
 ### Visualizaciones previstas
