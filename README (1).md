@@ -77,11 +77,7 @@ Los resultados pueden proporcionar información útil para comparar alternativas
 **¿Cuál de las tres empresas, NVIDIA, AMD o Qualcomm, presentó el mejor equilibrio entre rentabilidad y riesgo durante 2021-2025?**
 estos indicadores permiten comparar cuál empresa obtuvo mayor rentabilidad, cuál presentó más fluctuaciones y caídas, y cuál logró el mejor equilibrio entre rentabilidad y riesgo.
 
-Indicador	¿Cómo se calcula?	Interpretación y limitaciones
-Rentabilidad acumulada	\((Precio final / Precio inicial - 1) \times 100\)	Indica cuánto ganó o perdió la acción. No considera las fluctuaciones durante el período.
-Volatilidad anualizada	Desviación estándar de los rendimientos diarios × \(\sqrt{252}\)	Mide cuánto fluctúa el precio. Una volatilidad alta representa mayor variabilidad, pero no significa necesariamente pérdidas.
-Máximo drawdown	\((Precio actual / Máximo histórico alcanzado - 1) \times 100\)	Identifica la mayor caída desde un máximo. No muestra cuánto tardó la acción en recuperarse.
-Ratio de Sharpe	\((Rentabilidad - Tasa libre de riesgo) / Volatilidad\)	Mide la rentabilidad obtenida por cada unidad de riesgo. Depende de la tasa libre de riesgo utilizada y de los datos históricos.
+<img width="1061" height="534" alt="image" src="https://github.com/user-attachments/assets/14fd82fc-47b1-4235-b68a-d48eb7ce51d6" />
 
 | Indicador / técnica | ¿Qué mide? | ¿Por qué lo necesitamos? | Implementación |
 |---|---|---|---|
