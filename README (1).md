@@ -9,8 +9,8 @@
 
 ## 1. Identificación del proyecto
 
-- **Nombre de la aplicación:** [Nombre]
-- **Equipo e integrantes:** [Nombres y aportes]
+- **Nombre de la aplicación:** Kapital
+- **Equipo e integrantes:** Lina Paola Alarcon Arboleda
 - **Enlace a la aplicación:** [Pendiente / URL]
 - **Repositorio del proyecto:** [URL]
 - **Última actualización:** [AAAA-MM-DD]
@@ -18,16 +18,49 @@
 ## 2. ¿Qué queremos investigar? · S25
 
 **Investiga:** ¿qué significa analizar el comportamiento histórico de un activo financiero? ¿Qué preguntas pueden responderse con datos de mercado y cuáles no?
+**¿Qué significa analizar el comportamiento histórico de un activo financiero?**
+Significa estudiar cómo ha cambiado el precio de un activo financiero a lo largo del tiempo, utilizando datos como precios de apertura, cierre, máximos, mínimos y volumen de negociación.
+Esto permite identificar tendencias, medir rentabilidad, observar variaciones y evaluar el riesgo que ha presentado un activo.
 
-- **Situación o fenómeno de interés:** [Explica qué deseas comprender]
-- **Pregunta principal:** [Formula una pregunta concreta, delimitada y que pueda responderse con datos históricos]
-- **Objetivo del análisis:** [Qué esperas analizar, comparar o describir]
-- **Importancia financiera:** [Por qué importa estudiar este comportamiento]
+**¿Qué podemos responder y qué no?**
+Sí podemos responder cuánto ha subido o bajado una acción, cuál tuvo mayor rentabilidad, cuál presentó más volatilidad y cuáles fueron sus mayores caídas.
+No podemos responder con certeza cuánto costará una acción en el futuro, si una inversión garantizará ganancias o qué decisión debe tomar cada inversionista según sus circunstancias.
+Los datos históricos permiten estudiar lo que ocurrió, pero no garantizan que vuelva a ocurrir.
+
+**Situación o fenómeno de interés:**
+La industria de los semiconductores cumple un papel fundamental en el desarrollo tecnológico, ya que sus productos se utilizan en computadores, dispositivos móviles, centros de datos, inteligencia artificial y otros sistemas electrónicos.
+
+Durante los últimos años, esta industria ha experimentado importantes transformaciones impulsadas por la innovación tecnológica y el crecimiento de la demanda de procesamiento de datos e inteligencia artificial.
+
+Por esta razón, se busca comprender cómo se ha reflejado este comportamiento en el mercado bursátil, mediante el análisis histórico de tres empresas del sector: NVIDIA (NVDA), Advanced Micro Devices (AMD) y Qualcomm (QCOM), durante el período comprendido entre 2021 y 2025.
+- **Pregunta principal:**
+- ¿Cuál de las tres empresas del sector de semiconductores, NVIDIA, AMD o Qualcomm, presentó el mejor equilibrio entre rentabilidad y riesgo durante el período 2021-2025?
+- **Objetivo del análisis:**
+- Analizar y comparar el comportamiento histórico de las acciones de NVIDIA, AMD y Qualcomm durante el período 2021-2025, mediante indicadores financieros que permitan evaluar su rentabilidad, volatilidad, comportamiento de precios y niveles de riesgo, con el propósito de identificar cuál presentó el mejor desempeño ajustado al riesgo.
+- **Importancia financiera:**
+- El análisis es importante porque permite comprender cómo se comportan las empresas de una misma industria en el mercado bursátil, identificar diferencias en sus resultados y evaluar los riesgos asociados a sus acciones.
+
+Además, permite estudiar cómo los cambios tecnológicos, la innovación y las condiciones del mercado pueden coincidir con variaciones en los precios de las acciones.
+
+Los resultados pueden proporcionar información útil para comparar alternativas de inversión y comprender que una mayor rentabilidad no necesariamente implica un menor riesgo.
 - **Preguntas complementarias:** [Opcionales]
+¿Cuál de las tres empresas obtuvo la mayor rentabilidad acumulada entre 2021 y 2025?
 
+¿Qué acción presentó mayor volatilidad durante el período analizado?
+
+¿Cuál experimentó las mayores caídas desde sus máximos históricos?
 > **Comprueba:** ¿tu pregunta identifica activos, variables y un período de estudio? ¿Es posible responderla con datos disponibles?
 
 ## 3. Activos, datos y alcance · S25
+
+Elemento	Decisión
+Activos	NVDA, AMD y QCOM
+Período	1 de enero de 2021 al 31 de diciembre de 2025
+Frecuencia	Datos diarios
+Fuente	Yahoo Finance mediante yfinance
+Lenguaje	Python
+Aplicación	Streamlit
+Comparación	Rentabilidad y riesgo
 
 **Investiga:** ¿qué activos se ajustan a tu pregunta? ¿qué datos históricos existen? ¿qué frecuencia, período y fuente utilizarás?
 
