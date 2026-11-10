@@ -100,19 +100,30 @@ No es necesario utilizar todos los indicadores estudiados en clase. Selecciona y
 
 **Investiga:** ¿cómo se construyen controles, gráficos y métricas con la herramienta elegida? ¿qué sucede cuando el usuario modifica una selección?
 
-- **Usuarios previstos:** [Quién podría consultar la aplicación]
-- **Entradas y filtros:** [Activos, fechas, parámetros...]
-- **Secciones de la interfaz:** [Pantalla principal, comparación, riesgo, etc.]
-- **Resultados visibles:** [Gráficos, tablas, indicadores y explicaciones]
-- **Interacción principal:** [Describe qué cambia cuando el usuario modifica un control]
-
+- **Usuarios previstos:** Estudiantes de finanzas, inversionistas y personas interesadas en analizar y comparar el comportamiento de empresas del sector de semiconductores.
+- **Entradas y filtros:** 
+Selección de activos: NVIDIA (NVDA), AMD y Qualcomm (QCOM).
+Tasa libre de riesgo anual para el cálculo del ratio de Sharpe.
+Período de análisis: 2021–2025.
+- **Secciones de la interfaz:**
+- Panorama general: evolución histórica de los precios de las acciones y comparación de indicadores.
+Rentabilidad: comparación de la rentabilidad acumulada.
+Riesgo: visualización de volatilidad, máximo drawdown y ratio de Sharpe.
+Metodología: explicación de los indicadores utilizados y las fuentes de información.
+- **Resultados visibles:**
+Gráficos de evolución de precios.
+Gráficos comparativos de rentabilidad y riesgo.
+Tabla con los cuatro indicadores financieros.
+Explicaciones sobre el significado de cada indicador.
+- **Interacción principal:**
+El usuario puede seleccionar una o varias empresas y modificar la tasa libre de riesgo. Cuando cambia una selección, la aplicación actualiza los datos, cálculos, gráficos y tablas de acuerdo con los activos seleccionados.
 **Flujo previsto:**  
-Selección de activos y parámetros → Obtención de datos → Preparación y cálculos → Visualización → Interpretación.
+Selección de activos y parámetros → Obtención de datos de Yahoo Finance → Preparación y cálculos financieros → Visualización de resultados → Interpretación y comparación.
 
-**Boceto o esquema:** [Inserta una imagen o enlace al diseño, por ejemplo `docs/boceto.png`]
-
-**Decisión técnica:** [¿Por qué usarás Python o R y qué biblioteca de aplicación elegiste?]
-
+**Boceto o esquema:** 
+Se utilizará como referencia el diseño de la aplicación KAPITAL desarrollado en Streamlit, con una interfaz clara, fondo claro, elementos en tonos azul petróleo y verde azulado, menú lateral y secciones de análisis financiero.
+**Decisión técnica:** 
+Se eligió Python por sus herramientas para el análisis de datos financieros y la automatización de cálculos. Para construir la aplicación se utilizará Streamlit, que permite crear interfaces interactivas; Pandas y NumPy para procesar datos y calcular indicadores; y Plotly para elaborar gráficos interactivos. Los precios históricos se obtendrán mediante Yahoo Finance utilizando la biblioteca yfinance.
 ## 6. Construcción y pruebas · S26 (5 de noviembre)
 
 Actualiza esta sección durante el laboratorio de desarrollo.
