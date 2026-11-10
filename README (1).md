@@ -92,12 +92,14 @@ No es necesario utilizar todos los indicadores estudiados en clase. Selecciona y
 | Gráfico | Pregunta que ayuda a responder | Variables | Interpretación esperada |
 |---|---|---|---|
 | [Gráfico 1] | [¿Cuál de las tres empresas presentó el mayor crecimiento durante 2021–2025?] | [Fecha, precios ajustados y empresas (NVDA, AMD y QCOM).] | [Permite observar que NVIDIA presentó el mayor crecimiento, seguida de AMD y Qualcomm. También muestra las fluctuaciones de los precios durante el período.] |
-| [Gráfico 2] | [¿Cuál de las empresas del sector de semiconductores generó el mayor crecimiento o retorno acumulado para los inversionistas durante el período de estudio?] | [(X): Empresas de semiconductores AMD, NVIDIA y Qualcomm (Y): Rentabilidad acumulada, expresada en porcentaje %.] | [Permite comparar de forma directa el desempeño financiero de las tres compañías. Se concluye que NVIDIA obtuvo el crecimiento más alto con diferencia (1326.2%), seguida por AMD en segundo lugar (132.03%) y Qualcomm con el menor rendimiento acumulado (28.28%).] |
+| [Gráfico 2] | [¿Cuál empresa obtuvo la mayor rentabilidad acumulada durante el período de estudio?] | [(X): Empresas de semiconductores AMD, NVIDIA y Qualcomm (Y): Rentabilidad acumulada, expresada en porcentaje %.] | [Permite comparar de forma directa el desempeño financiero de las tres compañías. Se concluye que NVIDIA obtuvo el crecimiento más alto con diferencia (1326.2%), seguida por AMD en segundo lugar (132.03%) y Qualcomm con el menor rendimiento acumulado (28.28%).] |
 
 **Grafico 1 Evolución histórica de las acciones (base 100).**
+
 <img width="959" height="473" alt="image" src="https://github.com/user-attachments/assets/5f6ec810-ca43-469d-8b51-41ed4053dd2b" />
 
 **Gráfico 2 Gráfico de barras de rentabilidad acumulada por empresa.**
+
 <img width="958" height="476" alt="image" src="https://github.com/user-attachments/assets/c89a15a6-df29-48f1-928c-0f0c60b19001" />
 
 
@@ -177,12 +179,26 @@ Comprobar que la aplicación pueda ejecutarse y visualizarse correctamente.
 
 Para cada hallazgo importante, registra:
 
-1. **Evidencia:** [Gráfico, tabla o indicador con enlace]
-2. **Qué muestra:** [Describe el comportamiento observado]
-3. **Interpretación financiera:** [Explica su significado en relación con la pregunta]
-4. **Limitaciones:** [Qué no puedes concluir de los datos]
+1. **Evidencia:** Gráfico 2. Rentabilidad acumulada por empresa y tabla de indicadores financieros de KAPITAL.
+2. **Qué muestra:** NVIDIA presentó la mayor rentabilidad acumulada durante el período 2021–2025, con un 1326,20 %. AMD obtuvo un 132,03 % y Qualcomm un 28,28 %.
+3. **Interpretación financiera:**  NVIDIA tuvo el mayor crecimiento del valor de su acción durante el período analizado, superando ampliamente a las otras dos compañías.
+4. **Limitaciones:** La rentabilidad histórica no garantiza resultados futuros. El análisis no incluye comisiones, impuestos ni otros costos de inversión.
 
-**Conclusión provisional o final:** [Respuesta sustentada a la pregunta principal]
+**Hallazgo 2. Comparación del riesgo**
+**Evidencia:** Tabla de resumen de indicadores financieros de KAPITAL.
+**Qué muestra:** La volatilidad anualizada fue de 52,23 % para NVIDIA, 52,41 % para AMD y 38,15 % para Qualcomm. El máximo drawdown fue de -66,34 % para NVIDIA, -65,45 % para AMD y -44,29 % para Qualcomm.
+**Interpretación financiera:** NVIDIA y AMD presentaron niveles de volatilidad similares y superiores a Qualcomm. Además, NVIDIA experimentó la mayor caída desde un máximo histórico, lo que evidencia períodos de pérdidas importantes.
+**Limitaciones:** La volatilidad y el máximo drawdown describen el comportamiento histórico del riesgo, pero no permiten anticipar con certeza las pérdidas futuras.
+
+**Hallazgo 3. Equilibrio entre rentabilidad y riesgo**
+**Evidencia:** Tabla de resumen de indicadores financieros, específicamente el ratio de Sharpe.
+**Qué muestra:** NVIDIA obtuvo un ratio de Sharpe de 1,282; AMD de 0,582 y Qualcomm de 0,322. El cálculo se realizó utilizando una tasa libre de riesgo del 0 %.
+**Interpretación financiera:** NVIDIA presentó el mejor resultado ajustado al riesgo entre las tres empresas. Esto indica que ofreció una mayor rentabilidad en relación con la volatilidad asumida durante el período estudiado.
+**Limitaciones:** El ratio de Sharpe depende de la tasa libre de riesgo utilizada y de los rendimientos históricos. No representa una garantía de rentabilidad futura.
+**Conclusión provisional o final:** 
+De acuerdo con los resultados obtenidos en KAPITAL, NVIDIA presentó el mejor equilibrio entre rentabilidad y riesgo durante el período 2021–2025. Aunque registró una volatilidad elevada y el mayor máximo drawdown, alcanzó una rentabilidad acumulada del 1326,20 % y un ratio de Sharpe de 1,282, superior al de AMD y Qualcomm.
+
+Por lo tanto, NVIDIA fue la empresa con el mejor desempeño ajustado al riesgo entre las tres compañías analizadas, considerando los indicadores y las condiciones establecidas en este estudio.
 
 > Los resultados históricos no garantizan rendimientos futuros.
 
