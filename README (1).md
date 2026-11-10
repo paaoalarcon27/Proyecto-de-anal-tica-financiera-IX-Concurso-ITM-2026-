@@ -129,11 +129,40 @@ Se eligió Python por sus herramientas para el análisis de datos financieros y 
 Actualiza esta sección durante el laboratorio de desarrollo.
 
 - **Componentes implementados:** [Qué funciona realmente]
+Interfaz principal de KAPITAL con diseño personalizado.
+Menú lateral para seleccionar NVIDIA (NVDA), AMD y Qualcomm (QCOM).
+Parámetro para modificar la tasa libre de riesgo.
+Obtención de precios históricos mediante Yahoo Finance para el período 2021–2025.
+Cálculo de cuatro indicadores: rentabilidad acumulada, volatilidad anualizada, máximo drawdown y ratio de Sharpe.
+Secciones de panorama general, rentabilidad, riesgo y metodología.
+Gráficos y tablas para comparar los resultados.
 - **Cómo ejecutar la aplicación:** [Comandos, dependencias y pasos]
+Abrir el proyecto en Google Colab.
+Instalar las dependencias necesarias.
+Ejecutar las celdas de configuración y creación de la aplicación.
+Iniciar el servidor de Streamlit en el puerto 8501.
+Crear el enlace público mediante Cloudflare para visualizar la aplicación en el navegador.
 - **Dependencias:** [Archivo `requirements.txt`, `renv.lock` u otro]
+Se instalaron las siguientes bibliotecas mediante pip:
+Streamlit: construcción de la interfaz.
+Pandas y NumPy: procesamiento de datos y cálculos financieros.
+yfinance: consulta de precios históricos.
+Plotly: elaboración de gráficos interactivos.
+Pillow: creación y edición de la imagen de portada.
 - **Pruebas realizadas:** [Caso probado, resultado esperado y resultado obtenido]
+Inicio del servidor Streamlit: resultado obtenido satisfactorio, con respuesta HTTP 200.
+Consulta de datos históricos de las tres empresas: la aplicación cargó correctamente.
+Visualización de gráficos, tablas e indicadores: funcionamiento correcto.
+Modificación de la selección de activos: se comprobó que la aplicación actualiza los resultados.
+Consulta de la versión de yfinance: prueba ejecutada correctamente.
 - **Errores conocidos y cómo se resolvieron:** [Explicación]
+Durante la construcción inicial se presentó un error de sintaxis por un paréntesis de cierre faltante. Se corrigió la instrucción y se volvió a ejecutar la aplicación. También se verificó el funcionamiento del servidor y del enlace público de visualización.
 - **Pendientes antes del simulacro:** [Tareas concretas]
+Verificar nuevamente los datos y resultados de NVDA, AMD y QCOM.
+Comprobar que los filtros actualicen correctamente los indicadores y gráficos.
+Revisar la presentación visual y los textos de la aplicación.
+Guardar la versión final del código como 04_kapital_final.py.
+Comprobar que la aplicación pueda ejecutarse y visualizarse correctamente.
 
 > No afirmes que una función está implementada si aún no ha sido probada.
 
