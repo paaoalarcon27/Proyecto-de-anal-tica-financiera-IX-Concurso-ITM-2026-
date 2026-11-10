@@ -91,8 +91,15 @@ No es necesario utilizar todos los indicadores estudiados en clase. Selecciona y
 
 | Gráfico | Pregunta que ayuda a responder | Variables | Interpretación esperada |
 |---|---|---|---|
-| [Gráfico 1] | [Pregunta] | [Variables] | [Qué se podrá observar] |
-| [Gráfico 2] | [Pregunta] | [Variables] | [Qué se podrá comparar] |
+| [Gráfico 1] | [¿Cuál de las tres empresas presentó el mayor crecimiento durante 2021–2025?] | [Fecha, precios ajustados y empresas (NVDA, AMD y QCOM).] | [Permite observar que NVIDIA presentó el mayor crecimiento, seguida de AMD y Qualcomm. También muestra las fluctuaciones de los precios durante el período.] |
+| [Gráfico 2] | [¿Cuál de las empresas del sector de semiconductores generó el mayor crecimiento o retorno acumulado para los inversionistas durante el período de estudio?] | [(X): Empresas de semiconductores AMD, NVIDIA y Qualcomm (Y): Rentabilidad acumulada, expresada en porcentaje %.] | [Permite comparar de forma directa el desempeño financiero de las tres compañías. Se concluye que NVIDIA obtuvo el crecimiento más alto con diferencia (1326.2%), seguida por AMD en segundo lugar (132.03%) y Qualcomm con el menor rendimiento acumulado (28.28%).] |
+
+**Grafico 1 Evolución histórica de las acciones (base 100).**
+<img width="959" height="473" alt="image" src="https://github.com/user-attachments/assets/5f6ec810-ca43-469d-8b51-41ed4053dd2b" />
+
+**Gráfico 2 Gráfico de barras de rentabilidad acumulada por empresa.**
+<img width="958" height="476" alt="image" src="https://github.com/user-attachments/assets/c89a15a6-df29-48f1-928c-0f0c60b19001" />
+
 
 **Primer resultado verificable:** [Enlace a un cálculo o gráfico realizado con datos reales y una interpretación breve]
 
