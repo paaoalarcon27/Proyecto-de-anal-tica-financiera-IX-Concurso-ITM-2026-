@@ -12,8 +12,8 @@
 - **Nombre de la aplicación:** Kapital
 - **Equipo e integrantes:** Lina Paola Alarcon Arboleda
 - **Enlace a la aplicación:** [Pendiente / URL]
-- **Repositorio del proyecto:** [URL]
-- **Última actualización:** [AAAA-MM-DD]
+- **Repositorio del proyecto:** https://colab.research.google.com/drive/1G0BUKFnpAvBs7Bwg_wyXSRJ1RL25HnwC#scrollTo=mJ2BpcYfLZ1V
+- **Última actualización:** [2026-11-10]
 
 ## 2. ¿Qué queremos investigar? · S25
 
